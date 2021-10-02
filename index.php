@@ -19,6 +19,9 @@
             <li>
                 <a href="index.php?id=PHP">PHP</a>
             </li>
+            <li>
+                <a href="index.php?id=MySQL">MySQL</a>
+            </li>
         </ol>
         <h2>
             <?php
