@@ -18,8 +18,13 @@
             </li>
         </ol>
         <h2>
-            <?php 
-                echo $_GET["id"];
+            <?php
+                if(isset($_GET["id"])) {
+                    echo $_GET["id"];
+                }
+                else {
+                    echo "Welcome";
+                }
             ?>
         </h2>
         <?php 
