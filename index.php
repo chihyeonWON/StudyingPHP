@@ -11,7 +11,7 @@
                 $list = scandir("./data");
                 $i = 0;
                 while($i < count($list)) {
-                    echo "<li>$list[$i]</li>\n";
+                    echo "<li><a href=\"index.php?id=$list[$i]\">$list[$i]</a></li>\n";
                     $i += 1;
                 }
                 /*
