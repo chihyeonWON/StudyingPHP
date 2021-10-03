@@ -16,6 +16,7 @@
         }
 
         basic();
+        basic();
     ?>
 </body>
 </html>
