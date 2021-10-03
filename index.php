@@ -9,7 +9,7 @@
         <ol>
             <?php
                 $list = scandir("./data");
-                var_dump($list);
+                echo "<li>$list[0]</li>";
             ?>
         </ol>
         <h2>
