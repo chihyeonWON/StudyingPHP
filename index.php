@@ -10,7 +10,7 @@
             <?php
                 $list = scandir("./data");
                 $i = 0;
-                while($i < 6) {
+                while($i < count($list)) {
                     echo "<li>$list[$i]</li>\n";
                     $i += 1;
                 }
