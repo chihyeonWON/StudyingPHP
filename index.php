@@ -14,12 +14,7 @@
         <meta charset="utf-8">
         <title>
             <?php
-                if(isset($_GET["id"])) {
-                    echo $_GET["id"];
-                }
-                else {
-                    echo "Welcome";
-                }
+                print_title();
             ?>
         </title>
     </head>
@@ -49,12 +44,7 @@
         </ol>
         <h2>
             <?php
-                if(isset($_GET["id"])) {
-                    echo $_GET["id"];
-                }
-                else {
-                    echo "Welcome";
-                }
+                print_title();
             ?>
         </h2>
         <?php 
