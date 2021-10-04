@@ -7,7 +7,16 @@
                     echo "Welcome";
                 }
     }
+    function print_description(){
+        if(isset($_GET["id"])) {
+                echo file_get_contents("data/".$_GET["id"]);
+            }
+            else {
+                echo "Hello, PHP";
+            }
+    }
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -48,12 +57,7 @@
             ?>
         </h2>
         <?php 
-            if(isset($_GET["id"])) {
-                echo file_get_contents("data/".$_GET["id"]);
-            }
-            else {
-                echo "Hello, PHP";
-            }
+            print_description();
         ?>   
     </body>
 </html>
