@@ -27,5 +27,16 @@
         }
         sum(4,2);
     ?>
-</body>
+
+    <h2>return</h2>
+    <?php
+         function sum2($left,$right){
+             return $left+$right;
+         }
+
+         print(sum2(2,4));
+         file_put_contents("result.txt",sum(2,4));
+         // email("heungeob1003@gmail.net",sum2(2,4));
+         // upload("heungeob1003.net",sum2(2,4);
+    </body>
 </html>
