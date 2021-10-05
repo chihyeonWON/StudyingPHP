@@ -55,7 +55,10 @@
             ?>
         </ol>
         <a href="create.php">create</a>
-        <h2>
+        <?php if(isset($_GET["id"])){ ?>
+                <a href="update.php">update</a>
+        <?php } ?>  
+          <h2>
             <?php
                 print_title();
             ?>
