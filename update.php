@@ -69,10 +69,10 @@
 
         <form action="create_process.php" method="post">
             <p>
-                <input type="text" name="title" placeholder="Title" />
+                <input type="text" name="title" placeholder="Title" value="<?php print_title(); ?>"/>
             </p>
             <p>
-                <textarea name="description" placeholder="Description"></textarea>
+                <textarea name="description" placeholder="Description"><?php print_description(); ?></textarea>
             </p>
             <p>
                 <input type="submit" value="Submit" />
