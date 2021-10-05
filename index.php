@@ -54,6 +54,7 @@
                 */
             ?>
         </ol>
+        <a href="create.php">create</a>
         <h2>
             <?php
                 print_title();
