@@ -1,5 +1,5 @@
 <?php
-    require("lib/print.php");
+    require_once("lib/print.php");
 ?>
 <?php
     require("view/top.php");
