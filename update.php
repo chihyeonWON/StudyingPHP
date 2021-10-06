@@ -51,5 +51,6 @@
                 <input type="submit" value="Submit" />
             </p>
         </form>
-    </body>
-</html>
+<?php
+    require("view/bottom.php");
+?>

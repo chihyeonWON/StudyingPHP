@@ -46,5 +46,6 @@
         <?php 
             print_description();
         ?>   
-    </body>
-</html>
+<?php
+    require("view/bottom.php");
+?>
