@@ -67,7 +67,7 @@
             print_description();
         ?>   
 
-        <form action="create_process.php" method="post">
+        <form action="update_process.php" method="post">
             <p>
                 <input type="text" name="title" placeholder="Title" value="<?php print_title(); ?>"/>
             </p>
