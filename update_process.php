@@ -1,3 +1,3 @@
 <?php
-    rename("date/".$_POST["title"],..);
+    rename("data/".$_POST["old_title"],"data/".$_POST["title"]);
 ?>
